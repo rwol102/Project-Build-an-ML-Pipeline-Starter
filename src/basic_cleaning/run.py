@@ -75,7 +75,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--output_description", 
         type = str,
-        help = "output description"
+        help = "output description",
         required = True
     )
 
