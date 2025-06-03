@@ -100,7 +100,7 @@ def go(args):
     # HINT: use mlflow.sklearn.save_model
     mlflow.sklearn.save_model(
        sk_pipe,
-       "random_forest_dir"
+       "random_forest_dir",
         input_example = X_train.iloc[:5]
     )
     ######################################
